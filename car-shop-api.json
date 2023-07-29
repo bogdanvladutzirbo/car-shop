@@ -1,0 +1,78 @@
+{
+  "uuid": "f6d0127d-d8b3-4da8-b12e-924d4459a530",
+  "lastMigration": 27,
+  "name": "Car shop api",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "1db962a9-7b5e-4a2a-b459-200ec4678a6c",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "car-shop/cars",
+      "responses": [
+        {
+          "uuid": "675712f3-d3c6-461a-bdf7-f383f2f690bb",
+          "body": "{\n  \"car\": [\n    {\n      \"carId\": \"1234\",\n      \"mark\": \"Volkswagen\",\n      \"model\": \"Golf\",\n      \"category\": \"Saloon\",\n      \"firstRegistration\": \"05/2019\",\n      \"power\": \"135kW(184Hp)\",\n      \"cubicCapacity\": \"1968ccm\",\n      \"fuel\": \"Diesel\",\n      \"gearBox\": \"Automatic transmision\",\n      \"mileage\": \"69979km\",\n      \"transmision\": \"FWD\",\n      \"doors\": \"4/5\",\n      \"description\": \"Golf 7 for sale\",\n      \"price\": 26870\n    },\n    {\n      \"carId\": \"1235\",\n      \"mark\": \"Volkswagen\",\n      \"model\": \"Golf\",\n      \"category\": \"Saloon\",\n      \"firstRegistration\": \"04/2018\",\n      \"power\": \"135kW(184Hp)\",\n      \"cubicCapacity\": \"1968ccm\",\n      \"fuel\": \"Diesel\",\n      \"gearBox\": \"Automatic transmision\",\n      \"mileage\": \"55579km\",\n      \"transmision\": \"FWD\",\n      \"doors\": \"4/5\",\n      \"description\": \"Golf 7 for sale\",\n      \"price\": 24870\n    },\n    {\n      \"carId\": \"1236\",\n      \"mark\": \"Volkswagen\",\n      \"model\": \"Golf\",\n      \"category\": \"Saloon\",\n      \"firstRegistration\": \"09/2019\",\n      \"power\": \"135kW(184Hp)\",\n      \"cubicCapacity\": \"1968ccm\",\n      \"fuel\": \"Diesel\",\n      \"gearBox\": \"Automatic transmision\",\n      \"mileage\": \"69979km\",\n      \"transmision\": \"FWD\",\n      \"doors\": \"4/5\",\n      \"description\": \"Golf 7 for sale\",\n      \"price\": 2899.99\n    },\n    {\n      \"carId\": \"1237\",\n      \"mark\": \"Volkswagen\",\n      \"model\": \"Golf\",\n      \"category\": \"Saloon\",\n      \"firstRegistration\": \"11/2019\",\n      \"power\": \"135kW(184Hp)\",\n      \"cubicCapacity\": \"1968ccm\",\n      \"fuel\": \"Diesel\",\n      \"gearBox\": \"Automatic transmision\",\n      \"mileage\": \"69979km\",\n      \"transmision\": \"FWD\",\n      \"doors\": \"4/5\",\n      \"description\": \"Golf 7 for sale\",\n      \"price\": 29000\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "1db962a9-7b5e-4a2a-b459-200ec4678a6c"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
